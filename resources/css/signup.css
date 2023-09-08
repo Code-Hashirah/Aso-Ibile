@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-body{
+    width: 100%;
+    /* background-image: url('../images/wazobiaLogo.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+#sign-up{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(26, 7, 7);
+}
+#signup-pic{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+width: 40%;
+overflow: hidden;
+height: 600px;
+}
+.signup-img{
+    height: 600px;
+    width: 100%;
+    border-radius: 100px;
+}
+.form{
+    width: 700px;
+    margin-top:30px ;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.767);
+    background: transparent;
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    opacity: 80%;
+    
+}
+.input{
+    margin-bottom: 20px;
+    justify-self: center;
+}
+.lbl{
+    display: block;
+    color: white;
+    font-family: dancing script;
+    font-size: 24px;
+}
+.input-tag{
+    width: 100%;
+    border-bottom: 4px solid white;
+    outline: none;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.button{
+    display: inline-block;
+    width: 70%;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(26, 7, 7);
+    font-family: dancing script;
+    font-weight: 900;
+    color: #ffffff;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.767);
+    transition: transform 3s;
+}
+.button:hover{
+ transform: scale(1.1);
+ background-color: whitesmoke;
+ color: rgb(26, 7, 7);
+}
+.cancel{
+    text-decoration: none;
+    display: inline-block;
+    width: 70%;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: dancing script;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(26, 7, 7);
+    color: #ffffff;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.767);
+    transition: transform 3s;
+}
+.cancel:hover{
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: rgb(26, 7, 7);
+   }
+   #sign-up-h3{
+    text-align: center;
+    color: white;
+    font-family:dancing script;
+   }
+
+   /* responsiveness section in css  */
+   @media screen and (max-width:660px) {
+    #main-body{
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column-reverse;
+    }
+    #sign-up{
+        width: 90%;
+        margin-left: 5px;
+    }
+    #signup-pic{
+       width:  100%;
+    }
+   }
