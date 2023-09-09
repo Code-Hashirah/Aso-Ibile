@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('auth_models', function (Blueprint $table) {
             $table->id();
-            $table->string('email');
+            $table->string('email')->unique();
             $table->string('fullname');
             $table->string('address');
             $table->string('phone');

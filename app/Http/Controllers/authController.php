@@ -28,5 +28,6 @@ class authController extends Controller
         $Auth->password=$request->Password;
         $Auth->save();
         return redirect('/');
+        // return "Hello";
     }
 }
