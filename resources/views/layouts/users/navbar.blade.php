@@ -18,7 +18,7 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav">
-          <a class="nav-link" href="/">Aso ibile</a>
+          <a class="nav-link" href="/products">Aso ibile</a>
         </li>
         <li class="nav">
           <a class="nav-link" href="/sign-in">Login</a>

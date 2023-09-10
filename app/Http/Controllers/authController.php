@@ -30,4 +30,12 @@ class authController extends Controller
         return redirect('/');
         // return "Hello";
     }
+
+    function loginPage(){
+        return view('Admin.Auth.signin');
+    }
+
+    function login(Request $request){
+        //
+    }
 }

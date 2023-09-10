@@ -17,4 +17,9 @@ class Controller extends BaseController
         // return $Products;
     }
 
+    public function allProducts(){
+        $allProducts=products::all();
+        return view('allproducts', compact(['allProducts']));
+    }
+
 }
